@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "/movieApp/";
+    config.base = "/movie-app-deploy-westride/";
   }
 
   return config;
